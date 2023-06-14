@@ -22,3 +22,50 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+# Dependency directories
+/node_modules
+/dist
+/dist-out
+/dist-app
+/tmp
+
+# Compiled output
+/*.js
+/*.js.map
+/*.css
+/*.css.map
+/*.ngsummary.json
+/*.ngfactory.ts
+/*.ngstyle.ts
+
+# Logs and databases
+*.log
+*.sqlite
+
+# Environment files
+/src/environments/environment.ts
+/src/environments/environment.prod.ts
+
+# IDE files
+/.idea
+/.vscode
+
+# Miscellaneous
+/.DS_Store
+/Thumbs.db
+/.sass-cache
+/connect.lock
+/coverage
+/declarations.d.ts
+/jest-preset.js
+/jest.config.js
+/jsconfig.json
+/karma.conf.js
+/nx.json
+/prettier.config.js
+/tsconfig.json
+/tslint.json
+/yarn.lock
+/README.md
+
